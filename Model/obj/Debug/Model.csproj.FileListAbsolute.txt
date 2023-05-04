@@ -1,0 +1,12 @@
+D:\E_Voting\Model\bin\Debug\Model.dll.config
+D:\E_Voting\Model\bin\Debug\Model.dll
+D:\E_Voting\Model\bin\Debug\Model.pdb
+D:\E_Voting\Model\bin\Debug\EntityFramework.dll
+D:\E_Voting\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\E_Voting\Model\bin\Debug\EntityFramework.xml
+D:\E_Voting\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\E_Voting\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\E_Voting\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\E_Voting\Model\obj\Debug\Model.csproj.CopyComplete
+D:\E_Voting\Model\obj\Debug\Model.dll
+D:\E_Voting\Model\obj\Debug\Model.pdb
