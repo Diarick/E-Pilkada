@@ -1,0 +1,14 @@
+D:\E_Voting\Service\bin\Debug\Service.dll
+D:\E_Voting\Service\bin\Debug\Service.pdb
+D:\E_Voting\Service\obj\Debug\Service.csproj.AssemblyReference.cache
+D:\E_Voting\Service\obj\Debug\Service.csproj.CoreCompileInputs.cache
+D:\E_Voting\Service\obj\Debug\Service.dll
+D:\E_Voting\Service\obj\Debug\Service.pdb
+D:\E_Voting\Service\bin\Debug\Model.dll
+D:\E_Voting\Service\bin\Debug\Repository.dll
+D:\E_Voting\Service\bin\Debug\EntityFramework.dll
+D:\E_Voting\Service\bin\Debug\Model.pdb
+D:\E_Voting\Service\bin\Debug\Model.dll.config
+D:\E_Voting\Service\bin\Debug\Repository.pdb
+D:\E_Voting\Service\bin\Debug\EntityFramework.xml
+D:\E_Voting\Service\obj\Debug\Service.csproj.CopyComplete
