@@ -1,0 +1,12 @@
+D:\E_Voting\Repository\bin\Debug\Repository.dll
+D:\E_Voting\Repository\bin\Debug\Repository.pdb
+D:\E_Voting\Repository\obj\Debug\Repository.csproj.AssemblyReference.cache
+D:\E_Voting\Repository\obj\Debug\Repository.csproj.CoreCompileInputs.cache
+D:\E_Voting\Repository\obj\Debug\Repository.dll
+D:\E_Voting\Repository\obj\Debug\Repository.pdb
+D:\E_Voting\Repository\bin\Debug\Model.dll
+D:\E_Voting\Repository\bin\Debug\EntityFramework.dll
+D:\E_Voting\Repository\bin\Debug\Model.pdb
+D:\E_Voting\Repository\bin\Debug\Model.dll.config
+D:\E_Voting\Repository\bin\Debug\EntityFramework.xml
+D:\E_Voting\Repository\obj\Debug\Repository.csproj.CopyComplete
