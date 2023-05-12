@@ -26,5 +26,6 @@ namespace Model
         }
     
         public virtual DbSet<msUser> msUsers { get; set; }
+        public virtual DbSet<msNIK> msNIKs { get; set; }
     }
 }

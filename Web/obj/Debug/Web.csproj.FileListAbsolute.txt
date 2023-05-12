@@ -88,3 +88,4 @@ D:\E_Voting\Web\obj\Debug\Web.dll
 D:\E_Voting\Web\obj\Debug\Web.pdb
 D:\E_Voting\Web\bin\EntityFramework.SqlServer.dll
 D:\E_Voting\Web\bin\EntityFramework.SqlServer.xml
+D:\E_Voting\Web\bin\Repository.dll.config

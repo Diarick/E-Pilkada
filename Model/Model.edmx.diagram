@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="67d51f25a6a14b56a1d97fc3629113ed" Name="Diagram1">
         <EntityTypeShape EntityType="E_VotingModel.msUser" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="E_VotingModel.msNIK" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

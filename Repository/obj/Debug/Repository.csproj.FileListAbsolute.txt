@@ -10,3 +10,6 @@ D:\E_Voting\Repository\bin\Debug\Model.pdb
 D:\E_Voting\Repository\bin\Debug\Model.dll.config
 D:\E_Voting\Repository\bin\Debug\EntityFramework.xml
 D:\E_Voting\Repository\obj\Debug\Repository.csproj.CopyComplete
+D:\E_Voting\Repository\bin\Debug\Repository.dll.config
+D:\E_Voting\Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\E_Voting\Repository\bin\Debug\EntityFramework.SqlServer.xml

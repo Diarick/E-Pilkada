@@ -5,13 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
 using Model;
+using Service.Services;
 
 namespace Web.Controllers
 {
     public class AuthController : Controller
     {
-
-        E_VotingEntities context = new E_VotingEntities();
         public ActionResult Login()
         {
             return View();
@@ -19,8 +18,10 @@ namespace Web.Controllers
         [HttpPost]
         public ActionResult Login(VMLogin Credential)
         {
-            bool isUserExist = context.msUsers.Any(f => f.Email == Credential.Email && f.Password == Credential.Password);
-            msUser user = context.msUsers.FirstOrDefault(f => f.Email == Credential.Email && f.Password == Credential.Password);
+            msUserService userService = new msUserService();
+            msUser user = userService.CheckUser(Credential.Email, Credential.Password);
+
+            bool isUserExist = user != null ? true : false;
 
             if (isUserExist)
             {
@@ -37,6 +38,16 @@ namespace Web.Controllers
             FormsAuthentication.SignOut();
             return RedirectToAction("Login");
         }
+        public ActionResult CheckNIK()
+        {
+            return View();
+        }
+        public ActionResult CheckNIK(string nik)
+        {
+            msNIKService nikService = new msNIKService();
+
+            return RedirectToAction("Login");
+        }
         public ActionResult Signup()
         {
             return View();
@@ -44,8 +55,9 @@ namespace Web.Controllers
         [HttpPost]
         public ActionResult Signup(msUser newUSer)
         {
-            context.msUsers.Add(newUSer);
-            context.SaveChanges();
+            msUserService userService = new msUserService();
+            userService.Insert(newUSer);
+
             return RedirectToAction("Login");
         }
     }

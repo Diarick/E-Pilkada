@@ -65,6 +65,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Model.edmx</DependentUpon>
     </Compile>
+    <Compile Include="msNIK.cs">
+      <DependentUpon>Model.tt</DependentUpon>
+    </Compile>
     <Compile Include="msUser.cs">
       <DependentUpon>Model.tt</DependentUpon>
     </Compile>
